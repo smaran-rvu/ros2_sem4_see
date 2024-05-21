@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating sem_end.egg-info
+writing sem_end.egg-info/PKG-INFO
+writing dependency_links to sem_end.egg-info/dependency_links.txt
+writing entry points to sem_end.egg-info/entry_points.txt
+writing requirements to sem_end.egg-info/requires.txt
+writing top-level names to sem_end.egg-info/top_level.txt
+writing manifest file 'sem_end.egg-info/SOURCES.txt'
+reading manifest file 'sem_end.egg-info/SOURCES.txt'
+writing manifest file 'sem_end.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/smaran/ros2_sem4/install/sem_end/lib/python3.10/site-packages/sem-end.egg-link (link to .)
+Installing robot_motion_controller script to /home/smaran/ros2_sem4/install/sem_end/lib/sem_end
+Installing robot_motion_controller2 script to /home/smaran/ros2_sem4/install/sem_end/lib/sem_end
+
+Installed /home/smaran/ros2_sem4/build/sem_end
+running symlink_data
+creating /home/smaran/ros2_sem4/install/sem_end/share/ament_index
+creating /home/smaran/ros2_sem4/install/sem_end/share/ament_index/resource_index
+creating /home/smaran/ros2_sem4/install/sem_end/share/ament_index/resource_index/packages
+symbolically linking /home/smaran/ros2_sem4/build/sem_end/resource/sem_end -> /home/smaran/ros2_sem4/install/sem_end/share/ament_index/resource_index/packages
+symbolically linking /home/smaran/ros2_sem4/build/sem_end/package.xml -> /home/smaran/ros2_sem4/install/sem_end/share/sem_end

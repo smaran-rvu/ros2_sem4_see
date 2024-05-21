@@ -1,0 +1,1 @@
+[0.691s] Invoking command in '/home/smaran/ros2_sem4/build/my_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/smaran/ros2_sem4/build/my_launch -- -j8 -l8

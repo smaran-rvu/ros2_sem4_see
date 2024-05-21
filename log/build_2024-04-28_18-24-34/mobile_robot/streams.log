@@ -1,0 +1,33 @@
+[1.287s] Invoking command in '/home/smaran/ros2_sem4/src/mobile_robot': PYTHONPATH=/home/smaran/ros2_sem4/build/mobile_robot/prefix_override:/home/smaran/ros2_sem4/install/mobile_robot/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mobile_robot build --build-base /home/smaran/ros2_sem4/build/mobile_robot/build install --record /home/smaran/ros2_sem4/build/mobile_robot/install.log --single-version-externally-managed install_data
+[1.568s] running egg_info
+[1.569s] creating ../../build/mobile_robot/mobile_robot.egg-info
+[1.569s] writing ../../build/mobile_robot/mobile_robot.egg-info/PKG-INFO
+[1.570s] writing dependency_links to ../../build/mobile_robot/mobile_robot.egg-info/dependency_links.txt
+[1.570s] writing entry points to ../../build/mobile_robot/mobile_robot.egg-info/entry_points.txt
+[1.570s] writing requirements to ../../build/mobile_robot/mobile_robot.egg-info/requires.txt
+[1.570s] writing top-level names to ../../build/mobile_robot/mobile_robot.egg-info/top_level.txt
+[1.570s] writing manifest file '../../build/mobile_robot/mobile_robot.egg-info/SOURCES.txt'
+[1.572s] reading manifest file '../../build/mobile_robot/mobile_robot.egg-info/SOURCES.txt'
+[1.573s] writing manifest file '../../build/mobile_robot/mobile_robot.egg-info/SOURCES.txt'
+[1.574s] running build
+[1.574s] running build_py
+[1.574s] creating /home/smaran/ros2_sem4/build/mobile_robot/build
+[1.574s] creating /home/smaran/ros2_sem4/build/mobile_robot/build/lib
+[1.574s] creating /home/smaran/ros2_sem4/build/mobile_robot/build/lib/mobile_robot
+[1.574s] copying mobile_robot/__init__.py -> /home/smaran/ros2_sem4/build/mobile_robot/build/lib/mobile_robot
+[1.574s] running install
+[1.575s] running install_lib
+[1.576s] creating /home/smaran/ros2_sem4/install/mobile_robot/lib/python3.10/site-packages/mobile_robot
+[1.576s] copying /home/smaran/ros2_sem4/build/mobile_robot/build/lib/mobile_robot/__init__.py -> /home/smaran/ros2_sem4/install/mobile_robot/lib/python3.10/site-packages/mobile_robot
+[1.577s] byte-compiling /home/smaran/ros2_sem4/install/mobile_robot/lib/python3.10/site-packages/mobile_robot/__init__.py to __init__.cpython-310.pyc
+[1.577s] running install_data
+[1.577s] creating /home/smaran/ros2_sem4/install/mobile_robot/share/ament_index
+[1.578s] creating /home/smaran/ros2_sem4/install/mobile_robot/share/ament_index/resource_index
+[1.578s] creating /home/smaran/ros2_sem4/install/mobile_robot/share/ament_index/resource_index/packages
+[1.578s] copying resource/mobile_robot -> /home/smaran/ros2_sem4/install/mobile_robot/share/ament_index/resource_index/packages
+[1.578s] copying package.xml -> /home/smaran/ros2_sem4/install/mobile_robot/share/mobile_robot
+[1.578s] running install_egg_info
+[1.580s] Copying ../../build/mobile_robot/mobile_robot.egg-info to /home/smaran/ros2_sem4/install/mobile_robot/lib/python3.10/site-packages/mobile_robot-0.0.0-py3.10.egg-info
+[1.581s] running install_scripts
+[1.599s] writing list of installed files to '/home/smaran/ros2_sem4/build/mobile_robot/install.log'
+[1.637s] Invoked command in '/home/smaran/ros2_sem4/src/mobile_robot' returned '0': PYTHONPATH=/home/smaran/ros2_sem4/build/mobile_robot/prefix_override:/home/smaran/ros2_sem4/install/mobile_robot/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mobile_robot build --build-base /home/smaran/ros2_sem4/build/mobile_robot/build install --record /home/smaran/ros2_sem4/build/mobile_robot/install.log --single-version-externally-managed install_data

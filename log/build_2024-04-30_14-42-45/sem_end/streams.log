@@ -1,0 +1,25 @@
+[3.213s] Invoking command in '/home/smaran/ros2_sem4/build/sem_end': PYTHONPATH=/home/smaran/ros2_sem4/build/sem_end/prefix_override:/home/smaran/ros2_sem4/install/sem_end/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/smaran/ros2_sem4/build/sem_end/build --no-deps symlink_data
+[3.906s] running develop
+[4.369s] running egg_info
+[4.369s] creating sem_end.egg-info
+[4.370s] writing sem_end.egg-info/PKG-INFO
+[4.371s] writing dependency_links to sem_end.egg-info/dependency_links.txt
+[4.372s] writing entry points to sem_end.egg-info/entry_points.txt
+[4.372s] writing requirements to sem_end.egg-info/requires.txt
+[4.373s] writing top-level names to sem_end.egg-info/top_level.txt
+[4.373s] writing manifest file 'sem_end.egg-info/SOURCES.txt'
+[4.376s] reading manifest file 'sem_end.egg-info/SOURCES.txt'
+[4.377s] writing manifest file 'sem_end.egg-info/SOURCES.txt'
+[4.382s] running build_ext
+[4.382s] Creating /home/smaran/ros2_sem4/install/sem_end/lib/python3.10/site-packages/sem-end.egg-link (link to .)
+[4.383s] Installing robot_motion_controller script to /home/smaran/ros2_sem4/install/sem_end/lib/sem_end
+[4.384s] Installing robot_motion_controller2 script to /home/smaran/ros2_sem4/install/sem_end/lib/sem_end
+[4.386s] 
+[4.386s] Installed /home/smaran/ros2_sem4/build/sem_end
+[4.386s] running symlink_data
+[4.387s] creating /home/smaran/ros2_sem4/install/sem_end/share/ament_index
+[4.387s] creating /home/smaran/ros2_sem4/install/sem_end/share/ament_index/resource_index
+[4.388s] creating /home/smaran/ros2_sem4/install/sem_end/share/ament_index/resource_index/packages
+[4.388s] symbolically linking /home/smaran/ros2_sem4/build/sem_end/resource/sem_end -> /home/smaran/ros2_sem4/install/sem_end/share/ament_index/resource_index/packages
+[4.390s] symbolically linking /home/smaran/ros2_sem4/build/sem_end/package.xml -> /home/smaran/ros2_sem4/install/sem_end/share/sem_end
+[4.523s] Invoked command in '/home/smaran/ros2_sem4/build/sem_end' returned '0': PYTHONPATH=/home/smaran/ros2_sem4/build/sem_end/prefix_override:/home/smaran/ros2_sem4/install/sem_end/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/smaran/ros2_sem4/build/sem_end/build --no-deps symlink_data

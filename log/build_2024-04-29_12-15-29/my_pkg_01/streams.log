@@ -1,0 +1,24 @@
+[2.527s] Invoking command in '/home/smaran/ros2_sem4/build/my_pkg_01': PYTHONPATH=/home/smaran/ros2_sem4/build/my_pkg_01/prefix_override:/home/smaran/ros2_sem4/install/my_pkg_01/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/smaran/ros2_sem4/build/my_pkg_01/build --no-deps symlink_data --force
+[3.112s] running develop
+[3.488s] running egg_info
+[3.488s] writing my_pkg_01.egg-info/PKG-INFO
+[3.489s] writing dependency_links to my_pkg_01.egg-info/dependency_links.txt
+[3.489s] writing entry points to my_pkg_01.egg-info/entry_points.txt
+[3.490s] writing requirements to my_pkg_01.egg-info/requires.txt
+[3.490s] writing top-level names to my_pkg_01.egg-info/top_level.txt
+[3.495s] reading manifest file 'my_pkg_01.egg-info/SOURCES.txt'
+[3.498s] writing manifest file 'my_pkg_01.egg-info/SOURCES.txt'
+[3.501s] running build_ext
+[3.502s] Creating /home/smaran/ros2_sem4/install/my_pkg_01/lib/python3.10/site-packages/my-pkg-01.egg-link (link to .)
+[3.504s] Installing go_to_point script to /home/smaran/ros2_sem4/install/my_pkg_01/lib/my_pkg_01
+[3.504s] Installing my_circle script to /home/smaran/ros2_sem4/install/my_pkg_01/lib/my_pkg_01
+[3.504s] Installing my_node script to /home/smaran/ros2_sem4/install/my_pkg_01/lib/my_pkg_01
+[3.505s] Installing my_sub script to /home/smaran/ros2_sem4/install/my_pkg_01/lib/my_pkg_01
+[3.505s] Installing pub_sub script to /home/smaran/ros2_sem4/install/my_pkg_01/lib/my_pkg_01
+[3.506s] Installing pub_sub_2 script to /home/smaran/ros2_sem4/install/my_pkg_01/lib/my_pkg_01
+[3.506s] 
+[3.506s] Installed /home/smaran/ros2_sem4/build/my_pkg_01
+[3.507s] running symlink_data
+[3.508s] symbolically linking /home/smaran/ros2_sem4/build/my_pkg_01/resource/my_pkg_01 -> /home/smaran/ros2_sem4/install/my_pkg_01/share/ament_index/resource_index/packages
+[3.508s] symbolically linking /home/smaran/ros2_sem4/build/my_pkg_01/package.xml -> /home/smaran/ros2_sem4/install/my_pkg_01/share/my_pkg_01
+[3.583s] Invoked command in '/home/smaran/ros2_sem4/build/my_pkg_01' returned '0': PYTHONPATH=/home/smaran/ros2_sem4/build/my_pkg_01/prefix_override:/home/smaran/ros2_sem4/install/my_pkg_01/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/smaran/ros2_sem4/build/my_pkg_01/build --no-deps symlink_data --force

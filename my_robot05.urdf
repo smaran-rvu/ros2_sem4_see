@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<robot name="my_diff_robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <material name="cyan">
+        <color rgba="0.0 1.0 1.0 1.0"></color>
+        <!-- rgb ... a = opacity -->
+    </material>
+    
+    <material name="jeans">
+        <color rgba="0.1 0.37 0.75 1.0"></color>
+    </material>
+    
+    <material name="smaranrb_coating">
+        <color rgba="1 0.8 0.6 1"></color>
+        <!-- rgb ... a = opacity -->
+    </material>
+
+    <material name="purple">
+        <color rgba="0.625 0.125 0.937 1"></color>
+        <!-- rgb ... a = opacity -->
+    </material>
+
+    <!-- ================================================================ -->
+
+    <link name="base_link">
+        <visual>
+            <geometry>
+                <box size="1.0 1.0 0.1"></box>
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" ></origin>
+            <!-- rpy = roll pitch yaw-->
+            <material name="cyan"></material>
+        </visual>
+    </link>
+
+    <link name="link1">
+        <visual>
+            <geometry>
+                <cylinder radius="0.3" length="0.1"></cylinder>
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" ></origin>
+            <material name="jeans"></material>
+        </visual>
+    </link>
+
+    <joint name="base_link1_joint" type="continuous">
+        <parent link="base_link"></parent>
+        <child link="link1"></child>
+        <origin xyz="0.0 0.0 0.1" rpy="0 0 0"></origin>
+        <axis xyz="0 0 1"></axis>
+    </joint>
+
+    <!-- ================================================================ -->
+
+    <link name="link_12">
+        <visual>
+            <geometry>
+                <cylinder radius="0.05" length="0.1"></cylinder>
+            </geometry>
+            <origin xyz="0 0 0" rpy="1.57 0 0" ></origin>
+            <material name="smaranrb_coating"></material>
+        </visual>
+    </link>    
+
+    <joint name="link1_link12_joint" type="revolute">
+        <limit effort="1000.0" lower="-1.0" upper="1.0" velocity="20"></limit>
+        <origin xyz="0.0 0.0 0.05" rpy="0 0 0"></origin>
+        <parent link="link1"></parent>
+        <child link="link_12"></child>
+        <axis xyz="0 1 0"></axis>
+    </joint>
+
+    <link name="link2">
+        <visual>
+            <geometry>
+                <cylinder radius="0.05" length="0.5"></cylinder>
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0.25" ></origin>
+            <material name="cyan"></material>
+        </visual>
+    </link>
+
+    <joint name="link_12_link2_joint" type="fixed">
+        <parent link="link_12"></parent>
+        <child link="link2"></child>
+        <origin xyz="0.0 0.0 0.25" rpy="0 0 0"></origin>
+    </joint>
+    
+    <!-- ================================================================ -->
+
+    <link name="link_23">
+        <visual>
+            <geometry>
+                <cylinder radius="0.05" length="0.1"></cylinder>
+            </geometry>
+            <origin xyz="0 0 0" rpy="1.57 0 0.0" ></origin>
+            <material name="smaranrb_coating"></material>
+        </visual>
+    </link>
+
+    <joint name="link2_link23_joint" type="revolute">
+        <limit effort="1000.0" lower="-1.0" upper="1.0" velocity="20"></limit>
+        <origin xyz="0.0 0.0 0.25" rpy="0 0 0"></origin>
+        <parent link="link2"></parent>
+        <child link="link_23"></child>
+        <axis xyz="0 1 0"></axis>
+    </joint>
+
+    <link name="link3">
+        <visual>
+            <geometry>
+                <cylinder radius="0.05" length="0.5"></cylinder>
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0.25" ></origin>
+            <material name="cyan"></material>
+        </visual>
+    </link>
+
+    <joint name="link_23_link3_joint" type="fixed">
+        <parent link="link_23"></parent>
+        <child link="link3"></child>
+        <origin xyz="0.0 0.0 0.25" rpy="0 0 0"></origin>
+    </joint>
+
+    <!-- ================================================================ -->
+
+    <link name="link_34">
+        <visual>
+            <geometry>
+                <cylinder radius="0.05" length="0.1"></cylinder>
+            </geometry>
+            <origin xyz="0 0 0" rpy="1.57 0 0.0" ></origin>
+            <material name="smaranrb_coating"></material>
+        </visual>
+    </link>
+
+    <joint name="link3_link34_joint" type="revolute">
+        <limit effort="1000.0" lower="-1.0" upper="1.0" velocity="20"></limit>
+        <origin xyz="0.0 0.0 0.25" rpy="0 0 0"></origin>
+        <parent link="link3"></parent>
+        <child link="link_34"></child>
+        <axis xyz="0 1 0"></axis>
+    </joint>
+
+    <link name="link4">
+        <visual>
+            <geometry>
+                <cylinder radius="0.05" length="0.5"></cylinder>
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0.25" ></origin>
+            <material name="cyan"></material>
+        </visual>
+    </link>
+
+    <joint name="link_34_link4_joint" type="fixed">
+        <parent link="link_34"></parent>
+        <child link="link4"></child>
+        <origin xyz="0.0 0.0 0.25" rpy="0 0 0"></origin>
+    </joint>
+
+
+</robot>

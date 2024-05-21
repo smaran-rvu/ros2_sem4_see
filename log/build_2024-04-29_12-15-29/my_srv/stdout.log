@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing my_srv.egg-info/PKG-INFO
+writing dependency_links to my_srv.egg-info/dependency_links.txt
+writing entry points to my_srv.egg-info/entry_points.txt
+writing requirements to my_srv.egg-info/requires.txt
+writing top-level names to my_srv.egg-info/top_level.txt
+reading manifest file 'my_srv.egg-info/SOURCES.txt'
+writing manifest file 'my_srv.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/smaran/ros2_sem4/install/my_srv/lib/python3.10/site-packages/my-srv.egg-link (link to .)
+Installing my_sum_client script to /home/smaran/ros2_sem4/install/my_srv/lib/my_srv
+Installing my_sum_serv script to /home/smaran/ros2_sem4/install/my_srv/lib/my_srv
+
+Installed /home/smaran/ros2_sem4/build/my_srv
+running symlink_data
+symbolically linking /home/smaran/ros2_sem4/build/my_srv/resource/my_srv -> /home/smaran/ros2_sem4/install/my_srv/share/ament_index/resource_index/packages
+symbolically linking /home/smaran/ros2_sem4/build/my_srv/package.xml -> /home/smaran/ros2_sem4/install/my_srv/share/my_srv

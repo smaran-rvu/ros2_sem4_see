@@ -1,0 +1,39 @@
+[1.261s] Invoking command in '/home/smaran/ros2_sem4/build/my_srv': PYTHONPATH=/home/smaran/ros2_sem4/build/my_srv/prefix_override:/home/smaran/ros2_sem4/install/my_srv/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/smaran/ros2_sem4/build/my_srv/build
+[1.553s] running develop
+[1.737s] Removing /home/smaran/ros2_sem4/install/my_srv/lib/python3.10/site-packages/my-srv.egg-link (link to .)
+[1.776s] Invoked command in '/home/smaran/ros2_sem4/build/my_srv' returned '0': PYTHONPATH=/home/smaran/ros2_sem4/build/my_srv/prefix_override:/home/smaran/ros2_sem4/install/my_srv/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/smaran/ros2_sem4/build/my_srv/build
+[1.777s] Invoking command in '/home/smaran/ros2_sem4/src/my_srv': PYTHONPATH=/home/smaran/ros2_sem4/build/my_srv/prefix_override:/home/smaran/ros2_sem4/install/my_srv/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_srv build --build-base /home/smaran/ros2_sem4/build/my_srv/build install --record /home/smaran/ros2_sem4/build/my_srv/install.log --single-version-externally-managed install_data --force
+[2.036s] running egg_info
+[2.037s] writing ../../build/my_srv/my_srv.egg-info/PKG-INFO
+[2.037s] writing dependency_links to ../../build/my_srv/my_srv.egg-info/dependency_links.txt
+[2.037s] writing entry points to ../../build/my_srv/my_srv.egg-info/entry_points.txt
+[2.037s] writing requirements to ../../build/my_srv/my_srv.egg-info/requires.txt
+[2.038s] writing top-level names to ../../build/my_srv/my_srv.egg-info/top_level.txt
+[2.040s] reading manifest file '../../build/my_srv/my_srv.egg-info/SOURCES.txt'
+[2.040s] adding license file 'LICENSE'
+[2.041s] writing manifest file '../../build/my_srv/my_srv.egg-info/SOURCES.txt'
+[2.041s] running build
+[2.041s] running build_py
+[2.042s] copying my_srv/simple_add_client.py -> /home/smaran/ros2_sem4/build/my_srv/build/lib/my_srv
+[2.042s] copying my_srv/simple_add_srv.py -> /home/smaran/ros2_sem4/build/my_srv/build/lib/my_srv
+[2.042s] running install
+[2.042s] running install_lib
+[2.043s] creating /home/smaran/ros2_sem4/install/my_srv/lib/python3.10/site-packages/my_srv
+[2.043s] copying /home/smaran/ros2_sem4/build/my_srv/build/lib/my_srv/__init__.py -> /home/smaran/ros2_sem4/install/my_srv/lib/python3.10/site-packages/my_srv
+[2.043s] copying /home/smaran/ros2_sem4/build/my_srv/build/lib/my_srv/simple_src.py -> /home/smaran/ros2_sem4/install/my_srv/lib/python3.10/site-packages/my_srv
+[2.043s] copying /home/smaran/ros2_sem4/build/my_srv/build/lib/my_srv/simple_add_client.py -> /home/smaran/ros2_sem4/install/my_srv/lib/python3.10/site-packages/my_srv
+[2.043s] copying /home/smaran/ros2_sem4/build/my_srv/build/lib/my_srv/simple_add_srv.py -> /home/smaran/ros2_sem4/install/my_srv/lib/python3.10/site-packages/my_srv
+[2.044s] byte-compiling /home/smaran/ros2_sem4/install/my_srv/lib/python3.10/site-packages/my_srv/__init__.py to __init__.cpython-310.pyc
+[2.045s] byte-compiling /home/smaran/ros2_sem4/install/my_srv/lib/python3.10/site-packages/my_srv/simple_src.py to simple_src.cpython-310.pyc
+[2.045s] byte-compiling /home/smaran/ros2_sem4/install/my_srv/lib/python3.10/site-packages/my_srv/simple_add_client.py to simple_add_client.cpython-310.pyc
+[2.045s] byte-compiling /home/smaran/ros2_sem4/install/my_srv/lib/python3.10/site-packages/my_srv/simple_add_srv.py to simple_add_srv.cpython-310.pyc
+[2.045s] running install_data
+[2.045s] copying resource/my_srv -> /home/smaran/ros2_sem4/install/my_srv/share/ament_index/resource_index/packages
+[2.045s] copying package.xml -> /home/smaran/ros2_sem4/install/my_srv/share/my_srv
+[2.045s] running install_egg_info
+[2.047s] Copying ../../build/my_srv/my_srv.egg-info to /home/smaran/ros2_sem4/install/my_srv/lib/python3.10/site-packages/my_srv-0.0.0-py3.10.egg-info
+[2.048s] running install_scripts
+[2.067s] Installing my_sum_client script to /home/smaran/ros2_sem4/install/my_srv/lib/my_srv
+[2.067s] Installing my_sum_serv script to /home/smaran/ros2_sem4/install/my_srv/lib/my_srv
+[2.067s] writing list of installed files to '/home/smaran/ros2_sem4/build/my_srv/install.log'
+[2.099s] Invoked command in '/home/smaran/ros2_sem4/src/my_srv' returned '0': PYTHONPATH=/home/smaran/ros2_sem4/build/my_srv/prefix_override:/home/smaran/ros2_sem4/install/my_srv/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_srv build --build-base /home/smaran/ros2_sem4/build/my_srv/build install --record /home/smaran/ros2_sem4/build/my_srv/install.log --single-version-externally-managed install_data --force

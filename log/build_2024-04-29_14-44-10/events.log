@@ -1,0 +1,56 @@
+[0.000000] (-) TimerEvent: {}
+[0.000386] (mobile_robot) JobQueued: {'identifier': 'mobile_robot', 'dependencies': OrderedDict()}
+[0.000520] (my_launch) JobQueued: {'identifier': 'my_launch', 'dependencies': OrderedDict()}
+[0.000631] (my_pkg_01) JobQueued: {'identifier': 'my_pkg_01', 'dependencies': OrderedDict()}
+[0.000740] (my_srv) JobQueued: {'identifier': 'my_srv', 'dependencies': OrderedDict()}
+[0.000852] (mobile_robot) JobStarted: {'identifier': 'mobile_robot'}
+[0.012311] (my_launch) JobStarted: {'identifier': 'my_launch'}
+[0.017651] (my_pkg_01) JobStarted: {'identifier': 'my_pkg_01'}
+[0.028790] (my_srv) JobStarted: {'identifier': 'my_srv'}
+[0.098234] (-) TimerEvent: {}
+[0.198812] (-) TimerEvent: {}
+[0.299388] (-) TimerEvent: {}
+[0.399980] (-) TimerEvent: {}
+[0.500613] (-) TimerEvent: {}
+[0.578927] (my_launch) JobProgress: {'identifier': 'my_launch', 'progress': 'cmake'}
+[0.581983] (my_launch) JobProgress: {'identifier': 'my_launch', 'progress': 'build'}
+[0.582135] (my_launch) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/smaran/ros2_sem4/build/my_launch', '--', '-j8', '-l8'], 'cwd': '/home/smaran/ros2_sem4/build/my_launch', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'smaran'), ('GIT_ASKPASS', '/home/smaran/.vscode-server/bin/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/smaran'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-38719fb1-9957-4b85-a388-afc825589aeb.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/smaran/.vscode-server/bin/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/smaran/.vscode-server/bin/e170252f762678dec6ca2cc69aba1570769a5d39/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'smaran'), ('NAME', 'SSSR'), ('WSL_INTEROP', '/run/WSL/535_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/smaran/.local/bin:/home/smaran/.vscode-server/bin/e170252f762678dec6ca2cc69aba1570769a5d39/bin/remote-cli:/home/smaran/.local/bin:/home/smaran/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Java/jdk-21/bin:/mnt/c/ProgramData/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/ProgramData/chocolatey/bin:/mnt/d/Smaran/Apps/nodejs/App/:/mnt/c/Users/smara/AppData/Roaming/Python/Python311/Scripts:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/Smaran/Apps/PuTTY/App/:/mnt/c/Users/smara/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/smara/AppData/Local/Programs/Python/Python311/:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Program Files/Java/jdk-21/bin:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/ProgramData/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Users/smara/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/smara/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/smara/adb:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2022.2.2/bin:/mnt/c/MinGW/bin:/mnt/c/Users/smara/AppData/Roaming/npm:/mnt/c/Users/smara/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/smara/AppData/Local/Programs/mongosh/:/mnt/c/Users/smara/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f6482172eb.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/smaran/ros2_sem4/build/my_launch'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.600765] (-) TimerEvent: {}
+[0.701324] (-) TimerEvent: {}
+[0.801945] (-) TimerEvent: {}
+[0.902454] (-) TimerEvent: {}
+[1.003059] (-) TimerEvent: {}
+[1.089217] (my_launch) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):\n'}
+[1.089767] (my_launch) StderrLine: {'line': b"  ament_package_xml() package name 'my_launch' in '/package.xml' does not\n"}
+[1.090924] (my_launch) StderrLine: {'line': b"  match current PROJECT_NAME 'mobile_robot'.  You must call project() with\n"}
+[1.091235] (my_launch) StderrLine: {'line': b'  the same package name before.\n'}
+[1.092309] (my_launch) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.092832] (my_launch) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)\n'}
+[1.093196] (my_launch) StderrLine: {'line': b'  CMakeLists.txt:19 (ament_package)\n'}
+[1.093517] (my_launch) StderrLine: {'line': b'\n'}
+[1.094074] (my_launch) StderrLine: {'line': b'\x1b[0m\n'}
+[1.094734] (my_launch) StderrLine: {'line': b'gmake: *** [Makefile:226: cmake_check_build_system] Error 1\n'}
+[1.094975] (my_launch) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.095808] (my_launch) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.096052] (my_launch) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.096300] (my_launch) StdoutLine: {'line': b'See also "/home/smaran/ros2_sem4/build/my_launch/CMakeFiles/CMakeOutput.log".\n'}
+[1.103186] (-) TimerEvent: {}
+[1.203762] (-) TimerEvent: {}
+[1.304336] (-) TimerEvent: {}
+[1.404830] (-) TimerEvent: {}
+[1.505407] (-) TimerEvent: {}
+[1.551289] (my_launch) CommandEnded: {'returncode': 2}
+[1.595401] (my_launch) JobEnded: {'identifier': 'my_launch', 'rc': 2}
+[1.605582] (-) TimerEvent: {}
+[1.706050] (-) TimerEvent: {}
+[1.806645] (-) TimerEvent: {}
+[1.907274] (-) TimerEvent: {}
+[2.007916] (-) TimerEvent: {}
+[2.108403] (-) TimerEvent: {}
+[2.208975] (-) TimerEvent: {}
+[2.309521] (-) TimerEvent: {}
+[2.370741] (my_srv) JobEnded: {'identifier': 'my_srv', 'rc': 'SIGINT'}
+[2.389945] (mobile_robot) JobEnded: {'identifier': 'mobile_robot', 'rc': 'SIGINT'}
+[2.409743] (-) TimerEvent: {}
+[2.426004] (my_pkg_01) JobEnded: {'identifier': 'my_pkg_01', 'rc': 'SIGINT'}
+[2.437696] (-) EventReactorShutdown: {}

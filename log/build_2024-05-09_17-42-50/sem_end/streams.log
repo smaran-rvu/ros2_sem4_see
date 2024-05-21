@@ -1,0 +1,18 @@
+[3.936s] Invoking command in '/home/smaran/ros2_sem4/build/sem_end': PYTHONPATH=/home/smaran/ros2_sem4/build/sem_end/prefix_override:/home/smaran/ros2_sem4/install/sem_end/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/smaran/ros2_sem4/build/sem_end/build --no-deps symlink_data
+[4.674s] running develop
+[5.200s] running egg_info
+[5.201s] writing sem_end.egg-info/PKG-INFO
+[5.203s] writing dependency_links to sem_end.egg-info/dependency_links.txt
+[5.204s] writing entry points to sem_end.egg-info/entry_points.txt
+[5.205s] writing requirements to sem_end.egg-info/requires.txt
+[5.205s] writing top-level names to sem_end.egg-info/top_level.txt
+[5.210s] reading manifest file 'sem_end.egg-info/SOURCES.txt'
+[5.213s] writing manifest file 'sem_end.egg-info/SOURCES.txt'
+[5.217s] running build_ext
+[5.217s] Creating /home/smaran/ros2_sem4/install/sem_end/lib/python3.10/site-packages/sem-end.egg-link (link to .)
+[5.220s] Installing robot_motion_controller script to /home/smaran/ros2_sem4/install/sem_end/lib/sem_end
+[5.221s] Installing robot_motion_controller2 script to /home/smaran/ros2_sem4/install/sem_end/lib/sem_end
+[5.222s] 
+[5.222s] Installed /home/smaran/ros2_sem4/build/sem_end
+[5.222s] running symlink_data
+[5.342s] Invoked command in '/home/smaran/ros2_sem4/build/sem_end' returned '0': PYTHONPATH=/home/smaran/ros2_sem4/build/sem_end/prefix_override:/home/smaran/ros2_sem4/install/sem_end/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/smaran/ros2_sem4/build/sem_end/build --no-deps symlink_data

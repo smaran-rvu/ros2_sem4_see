@@ -1,0 +1,51 @@
+[1.258s] Invoking command in '/home/smaran/ros2_sem4/build/my_pkg_01': PYTHONPATH=/home/smaran/ros2_sem4/build/my_pkg_01/prefix_override:/home/smaran/ros2_sem4/install/my_pkg_01/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/smaran/ros2_sem4/build/my_pkg_01/build
+[1.558s] running develop
+[1.750s] Removing /home/smaran/ros2_sem4/install/my_pkg_01/lib/python3.10/site-packages/my-pkg-01.egg-link (link to .)
+[1.800s] Invoked command in '/home/smaran/ros2_sem4/build/my_pkg_01' returned '0': PYTHONPATH=/home/smaran/ros2_sem4/build/my_pkg_01/prefix_override:/home/smaran/ros2_sem4/install/my_pkg_01/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/smaran/ros2_sem4/build/my_pkg_01/build
+[1.802s] Invoking command in '/home/smaran/ros2_sem4/src/my_pkg_01': PYTHONPATH=/home/smaran/ros2_sem4/build/my_pkg_01/prefix_override:/home/smaran/ros2_sem4/install/my_pkg_01/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_pkg_01 build --build-base /home/smaran/ros2_sem4/build/my_pkg_01/build install --record /home/smaran/ros2_sem4/build/my_pkg_01/install.log --single-version-externally-managed install_data --force
+[2.049s] running egg_info
+[2.050s] writing ../../build/my_pkg_01/my_pkg_01.egg-info/PKG-INFO
+[2.050s] writing dependency_links to ../../build/my_pkg_01/my_pkg_01.egg-info/dependency_links.txt
+[2.050s] writing entry points to ../../build/my_pkg_01/my_pkg_01.egg-info/entry_points.txt
+[2.050s] writing requirements to ../../build/my_pkg_01/my_pkg_01.egg-info/requires.txt
+[2.051s] writing top-level names to ../../build/my_pkg_01/my_pkg_01.egg-info/top_level.txt
+[2.052s] reading manifest file '../../build/my_pkg_01/my_pkg_01.egg-info/SOURCES.txt'
+[2.053s] writing manifest file '../../build/my_pkg_01/my_pkg_01.egg-info/SOURCES.txt'
+[2.053s] running build
+[2.053s] running build_py
+[2.054s] copying my_pkg_01/my_sub.py -> /home/smaran/ros2_sem4/build/my_pkg_01/build/lib/my_pkg_01
+[2.054s] copying my_pkg_01/go_to_point.py -> /home/smaran/ros2_sem4/build/my_pkg_01/build/lib/my_pkg_01
+[2.054s] copying my_pkg_01/pub_sub_v2.py -> /home/smaran/ros2_sem4/build/my_pkg_01/build/lib/my_pkg_01
+[2.054s] running install
+[2.054s] running install_lib
+[2.055s] creating /home/smaran/ros2_sem4/install/my_pkg_01/lib/python3.10/site-packages/my_pkg_01
+[2.055s] copying /home/smaran/ros2_sem4/build/my_pkg_01/build/lib/my_pkg_01/move_circle.py -> /home/smaran/ros2_sem4/install/my_pkg_01/lib/python3.10/site-packages/my_pkg_01
+[2.055s] copying /home/smaran/ros2_sem4/build/my_pkg_01/build/lib/my_pkg_01/my_sub.py -> /home/smaran/ros2_sem4/install/my_pkg_01/lib/python3.10/site-packages/my_pkg_01
+[2.055s] copying /home/smaran/ros2_sem4/build/my_pkg_01/build/lib/my_pkg_01/__init__.py -> /home/smaran/ros2_sem4/install/my_pkg_01/lib/python3.10/site-packages/my_pkg_01
+[2.055s] copying /home/smaran/ros2_sem4/build/my_pkg_01/build/lib/my_pkg_01/go_to_point.py -> /home/smaran/ros2_sem4/install/my_pkg_01/lib/python3.10/site-packages/my_pkg_01
+[2.056s] copying /home/smaran/ros2_sem4/build/my_pkg_01/build/lib/my_pkg_01/pub_sub.py -> /home/smaran/ros2_sem4/install/my_pkg_01/lib/python3.10/site-packages/my_pkg_01
+[2.056s] copying /home/smaran/ros2_sem4/build/my_pkg_01/build/lib/my_pkg_01/pub_sub_v2.py -> /home/smaran/ros2_sem4/install/my_pkg_01/lib/python3.10/site-packages/my_pkg_01
+[2.056s] copying /home/smaran/ros2_sem4/build/my_pkg_01/build/lib/my_pkg_01/hello_world.py -> /home/smaran/ros2_sem4/install/my_pkg_01/lib/python3.10/site-packages/my_pkg_01
+[2.056s] copying /home/smaran/ros2_sem4/build/my_pkg_01/build/lib/my_pkg_01/my_first_node.py -> /home/smaran/ros2_sem4/install/my_pkg_01/lib/python3.10/site-packages/my_pkg_01
+[2.056s] byte-compiling /home/smaran/ros2_sem4/install/my_pkg_01/lib/python3.10/site-packages/my_pkg_01/move_circle.py to move_circle.cpython-310.pyc
+[2.057s] byte-compiling /home/smaran/ros2_sem4/install/my_pkg_01/lib/python3.10/site-packages/my_pkg_01/my_sub.py to my_sub.cpython-310.pyc
+[2.057s] byte-compiling /home/smaran/ros2_sem4/install/my_pkg_01/lib/python3.10/site-packages/my_pkg_01/__init__.py to __init__.cpython-310.pyc
+[2.057s] byte-compiling /home/smaran/ros2_sem4/install/my_pkg_01/lib/python3.10/site-packages/my_pkg_01/go_to_point.py to go_to_point.cpython-310.pyc
+[2.058s] byte-compiling /home/smaran/ros2_sem4/install/my_pkg_01/lib/python3.10/site-packages/my_pkg_01/pub_sub.py to pub_sub.cpython-310.pyc
+[2.058s] byte-compiling /home/smaran/ros2_sem4/install/my_pkg_01/lib/python3.10/site-packages/my_pkg_01/pub_sub_v2.py to pub_sub_v2.cpython-310.pyc
+[2.058s] byte-compiling /home/smaran/ros2_sem4/install/my_pkg_01/lib/python3.10/site-packages/my_pkg_01/hello_world.py to hello_world.cpython-310.pyc
+[2.059s] byte-compiling /home/smaran/ros2_sem4/install/my_pkg_01/lib/python3.10/site-packages/my_pkg_01/my_first_node.py to my_first_node.cpython-310.pyc
+[2.059s] running install_data
+[2.059s] copying resource/my_pkg_01 -> /home/smaran/ros2_sem4/install/my_pkg_01/share/ament_index/resource_index/packages
+[2.059s] copying package.xml -> /home/smaran/ros2_sem4/install/my_pkg_01/share/my_pkg_01
+[2.059s] running install_egg_info
+[2.061s] Copying ../../build/my_pkg_01/my_pkg_01.egg-info to /home/smaran/ros2_sem4/install/my_pkg_01/lib/python3.10/site-packages/my_pkg_01-0.0.0-py3.10.egg-info
+[2.062s] running install_scripts
+[2.079s] Installing go_to_point script to /home/smaran/ros2_sem4/install/my_pkg_01/lib/my_pkg_01
+[2.080s] Installing my_circle script to /home/smaran/ros2_sem4/install/my_pkg_01/lib/my_pkg_01
+[2.080s] Installing my_node script to /home/smaran/ros2_sem4/install/my_pkg_01/lib/my_pkg_01
+[2.080s] Installing my_sub script to /home/smaran/ros2_sem4/install/my_pkg_01/lib/my_pkg_01
+[2.080s] Installing pub_sub script to /home/smaran/ros2_sem4/install/my_pkg_01/lib/my_pkg_01
+[2.080s] Installing pub_sub_2 script to /home/smaran/ros2_sem4/install/my_pkg_01/lib/my_pkg_01
+[2.080s] writing list of installed files to '/home/smaran/ros2_sem4/build/my_pkg_01/install.log'
+[2.114s] Invoked command in '/home/smaran/ros2_sem4/src/my_pkg_01' returned '0': PYTHONPATH=/home/smaran/ros2_sem4/build/my_pkg_01/prefix_override:/home/smaran/ros2_sem4/install/my_pkg_01/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_pkg_01 build --build-base /home/smaran/ros2_sem4/build/my_pkg_01/build install --record /home/smaran/ros2_sem4/build/my_pkg_01/install.log --single-version-externally-managed install_data --force

@@ -1,0 +1,22 @@
+[3.965s] Invoking command in '/home/smaran/ros2_sem4/build/my_pkg_01': PYTHONPATH=/home/smaran/ros2_sem4/build/my_pkg_01/prefix_override:/home/smaran/ros2_sem4/install/my_pkg_01/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/smaran/ros2_sem4/build/my_pkg_01/build --no-deps symlink_data
+[4.648s] running develop
+[5.175s] running egg_info
+[5.175s] writing my_pkg_01.egg-info/PKG-INFO
+[5.176s] writing dependency_links to my_pkg_01.egg-info/dependency_links.txt
+[5.177s] writing entry points to my_pkg_01.egg-info/entry_points.txt
+[5.177s] writing requirements to my_pkg_01.egg-info/requires.txt
+[5.177s] writing top-level names to my_pkg_01.egg-info/top_level.txt
+[5.181s] reading manifest file 'my_pkg_01.egg-info/SOURCES.txt'
+[5.185s] writing manifest file 'my_pkg_01.egg-info/SOURCES.txt'
+[5.187s] running build_ext
+[5.188s] Creating /home/smaran/ros2_sem4/install/my_pkg_01/lib/python3.10/site-packages/my-pkg-01.egg-link (link to .)
+[5.190s] Installing go_to_point script to /home/smaran/ros2_sem4/install/my_pkg_01/lib/my_pkg_01
+[5.191s] Installing my_circle script to /home/smaran/ros2_sem4/install/my_pkg_01/lib/my_pkg_01
+[5.192s] Installing my_node script to /home/smaran/ros2_sem4/install/my_pkg_01/lib/my_pkg_01
+[5.192s] Installing my_sub script to /home/smaran/ros2_sem4/install/my_pkg_01/lib/my_pkg_01
+[5.194s] Installing pub_sub script to /home/smaran/ros2_sem4/install/my_pkg_01/lib/my_pkg_01
+[5.194s] Installing pub_sub_2 script to /home/smaran/ros2_sem4/install/my_pkg_01/lib/my_pkg_01
+[5.195s] 
+[5.195s] Installed /home/smaran/ros2_sem4/build/my_pkg_01
+[5.196s] running symlink_data
+[5.293s] Invoked command in '/home/smaran/ros2_sem4/build/my_pkg_01' returned '0': PYTHONPATH=/home/smaran/ros2_sem4/build/my_pkg_01/prefix_override:/home/smaran/ros2_sem4/install/my_pkg_01/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/smaran/ros2_sem4/build/my_pkg_01/build --no-deps symlink_data

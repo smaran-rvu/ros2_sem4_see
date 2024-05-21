@@ -1,0 +1,4 @@
+[console_scripts]
+robot_motion_controller = sem_end.robot_motion_controller:main
+robot_motion_controller2 = sem_end.robot_motion_controller_2:main
+

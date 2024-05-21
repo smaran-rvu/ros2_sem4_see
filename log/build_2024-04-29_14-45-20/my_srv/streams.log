@@ -1,0 +1,18 @@
+[2.515s] Invoking command in '/home/smaran/ros2_sem4/build/my_srv': PYTHONPATH=/home/smaran/ros2_sem4/build/my_srv/prefix_override:/home/smaran/ros2_sem4/install/my_srv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/smaran/ros2_sem4/build/my_srv/build --no-deps symlink_data
+[3.150s] running develop
+[3.554s] running egg_info
+[3.554s] writing my_srv.egg-info/PKG-INFO
+[3.555s] writing dependency_links to my_srv.egg-info/dependency_links.txt
+[3.555s] writing entry points to my_srv.egg-info/entry_points.txt
+[3.555s] writing requirements to my_srv.egg-info/requires.txt
+[3.556s] writing top-level names to my_srv.egg-info/top_level.txt
+[3.559s] reading manifest file 'my_srv.egg-info/SOURCES.txt'
+[3.560s] writing manifest file 'my_srv.egg-info/SOURCES.txt'
+[3.563s] running build_ext
+[3.563s] Creating /home/smaran/ros2_sem4/install/my_srv/lib/python3.10/site-packages/my-srv.egg-link (link to .)
+[3.565s] Installing my_sum_client script to /home/smaran/ros2_sem4/install/my_srv/lib/my_srv
+[3.565s] Installing my_sum_serv script to /home/smaran/ros2_sem4/install/my_srv/lib/my_srv
+[3.566s] 
+[3.566s] Installed /home/smaran/ros2_sem4/build/my_srv
+[3.567s] running symlink_data
+[3.632s] Invoked command in '/home/smaran/ros2_sem4/build/my_srv' returned '0': PYTHONPATH=/home/smaran/ros2_sem4/build/my_srv/prefix_override:/home/smaran/ros2_sem4/install/my_srv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/smaran/ros2_sem4/build/my_srv/build --no-deps symlink_data

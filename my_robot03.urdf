@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+
+<robot name="my_diff_robot">
+    <material name="cyan">
+        <color rgba="0.0 1.0 1.0 1.0"></color>
+        <!-- rgb ... a = opacity -->
+    </material>
+    
+    <material name="jeans">
+        <color rgba="0.1 0.37 0.75 1.0"></color>
+    </material>
+    
+    <material name="nanoparticle_coating">
+        <color rgba="1 0.8 0.6 1"></color>
+        <!-- rgb ... a = opacity -->
+    </material>
+
+    <link name="base_footprint"></link>
+
+    <link name="base_link">
+        <visual>
+            <geometry>
+                <box size="0.6 0.4 0.2"></box>
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" ></origin>
+            <!-- rpy = roll pitch yaw-->
+            <material name="cyan"></material>
+        </visual>
+    </link>
+
+    <link name="sensor_link">
+        <visual>
+            <geometry>
+                <cylinder radius="0.1" length="0.05"></cylinder>
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" ></origin>
+            <material name="nanoparticle_coating"></material>
+        </visual>
+    </link>
+
+    <link name="wheel1_link">
+        <visual>
+            <geometry>
+                <!-- <cylinder radius="0.21" length="0.05"></cylinder> -->
+                <cylinder radius="0.1" length="0.05"></cylinder>
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" ></origin>
+            <material name="jeans"></material>
+        </visual>
+    </link>
+
+    <link name="wheel2_link">
+        <visual>
+            <geometry>
+                <cylinder radius="0.1" length="0.05"></cylinder>
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" ></origin>
+            <material name="jeans"></material>
+        </visual>
+    </link>
+
+    <link name="support_wheel_link">
+        <visual>
+            <geometry>
+                <sphere radius="0.05"></sphere>
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" ></origin>
+            <material name="jeans"></material>
+        </visual>
+    </link>
+
+    <joint name="base_footprint_joint" type="fixed">
+        <parent link="base_footprint"></parent>
+        <child link="base_link"></child>
+        <origin xyz="0.0 0.0 0.2" rpy="0 0 0"></origin>
+    </joint>
+
+    <joint name="base_sensor_joint" type="fixed">
+        <parent link="base_link"></parent>
+        <child link="sensor_link"></child>
+        <origin xyz="0.1 0 0.125" rpy="0 0 0"></origin>
+    </joint>
+
+    <!--<joint name="base_wheel1_joint" type="continuous">
+        <parent link="base_link"></parent>
+        <child link="wheel1_link"></child>
+        <axis xyz="0 0 1"></axis>
+    </joint> -->
+
+    <joint name="base_wheel1_joint" type="continuous">
+        <parent link="base_link"></parent>
+        <child link="wheel1_link"></child>
+        <!-- <origin xyz="-0.15 0.225 0" rpy="1.57 0 0"></origin>-->
+        <origin xyz="-0.15 0.225 -0.1" rpy="1.57 0 0"></origin>
+        <axis xyz="0 0 1"></axis>
+    </joint>
+
+    <joint name="base_wheel2_joint" type="continuous">
+        <parent link="base_link"></parent>
+        <child link="wheel2_link"></child>
+        <origin xyz="-0.15 -0.225 -0.1" rpy="1.57 0 0"></origin>
+        <axis xyz="0 0 1"></axis>
+    </joint>
+
+    <joint name="base_support_wheel_joint" type="fixed">
+        <parent link="base_link"></parent>
+        <child link="support_wheel_link"></child>
+        <origin xyz="+0.15 0.0 -0.15" rpy="0 0 0"></origin>
+        <limit effort="1000" velocity="1000"/>
+        <dynamics damping="1.0" friction="1.0"/>
+    </joint>
+</robot>

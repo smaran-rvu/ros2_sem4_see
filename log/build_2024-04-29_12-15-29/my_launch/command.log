@@ -1,0 +1,6 @@
+Invoking command in '/home/smaran/ros2_sem4/build/my_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/smaran/ros2_sem4/src/my_launch -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/smaran/ros2_sem4/install/my_launch
+Invoked command in '/home/smaran/ros2_sem4/build/my_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/smaran/ros2_sem4/src/my_launch -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/smaran/ros2_sem4/install/my_launch
+Invoking command in '/home/smaran/ros2_sem4/build/my_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/smaran/ros2_sem4/build/my_launch -- -j8 -l8
+Invoked command in '/home/smaran/ros2_sem4/build/my_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/smaran/ros2_sem4/build/my_launch -- -j8 -l8
+Invoking command in '/home/smaran/ros2_sem4/build/my_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/smaran/ros2_sem4/build/my_launch
+Invoked command in '/home/smaran/ros2_sem4/build/my_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/smaran/ros2_sem4/build/my_launch

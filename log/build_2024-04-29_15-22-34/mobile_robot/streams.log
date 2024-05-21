@@ -1,0 +1,16 @@
+[1.200s] Invoking command in '/home/smaran/ros2_sem4/build/mobile_robot': PYTHONPATH=/home/smaran/ros2_sem4/build/mobile_robot/prefix_override:/home/smaran/ros2_sem4/install/mobile_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/smaran/ros2_sem4/build/mobile_robot/build --no-deps symlink_data
+[1.522s] running develop
+[1.725s] running egg_info
+[1.725s] writing mobile_robot.egg-info/PKG-INFO
+[1.725s] writing dependency_links to mobile_robot.egg-info/dependency_links.txt
+[1.726s] writing entry points to mobile_robot.egg-info/entry_points.txt
+[1.726s] writing requirements to mobile_robot.egg-info/requires.txt
+[1.726s] writing top-level names to mobile_robot.egg-info/top_level.txt
+[1.728s] reading manifest file 'mobile_robot.egg-info/SOURCES.txt'
+[1.729s] writing manifest file 'mobile_robot.egg-info/SOURCES.txt'
+[1.732s] running build_ext
+[1.732s] Creating /home/smaran/ros2_sem4/install/mobile_robot/lib/python3.10/site-packages/mobile-robot.egg-link (link to .)
+[1.734s] 
+[1.735s] Installed /home/smaran/ros2_sem4/build/mobile_robot
+[1.735s] running symlink_data
+[1.785s] Invoked command in '/home/smaran/ros2_sem4/build/mobile_robot' returned '0': PYTHONPATH=/home/smaran/ros2_sem4/build/mobile_robot/prefix_override:/home/smaran/ros2_sem4/install/mobile_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/smaran/ros2_sem4/build/mobile_robot/build --no-deps symlink_data

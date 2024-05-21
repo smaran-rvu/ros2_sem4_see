@@ -1,0 +1,22 @@
+[0.704s] Invoking command in '/home/smaran/ros2_sem4/build/my_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/smaran/ros2_sem4/build/my_launch -- -j8 -l8
+[2.237s] Invoked command in '/home/smaran/ros2_sem4/build/my_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/smaran/ros2_sem4/build/my_launch -- -j8 -l8
+[2.288s] Invoking command in '/home/smaran/ros2_sem4/build/my_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/smaran/ros2_sem4/build/my_launch
+[2.304s] -- Install configuration: ""
+[2.306s] -- Execute custom install script
+[2.314s] -- Up-to-date symlink: /home/smaran/ros2_sem4/install/my_launch/share/my_launch/launch/my_demo_launch.launch.xml
+[2.315s] -- Up-to-date symlink: /home/smaran/ros2_sem4/install/my_launch/share/ament_index/resource_index/package_run_dependencies/my_launch
+[2.315s] -- Up-to-date symlink: /home/smaran/ros2_sem4/install/my_launch/share/ament_index/resource_index/parent_prefix_path/my_launch
+[2.316s] -- Up-to-date symlink: /home/smaran/ros2_sem4/install/my_launch/share/my_launch/environment/ament_prefix_path.sh
+[2.318s] -- Up-to-date symlink: /home/smaran/ros2_sem4/install/my_launch/share/my_launch/environment/ament_prefix_path.dsv
+[2.318s] -- Up-to-date symlink: /home/smaran/ros2_sem4/install/my_launch/share/my_launch/environment/path.sh
+[2.318s] -- Up-to-date symlink: /home/smaran/ros2_sem4/install/my_launch/share/my_launch/environment/path.dsv
+[2.318s] -- Up-to-date symlink: /home/smaran/ros2_sem4/install/my_launch/share/my_launch/local_setup.bash
+[2.319s] -- Up-to-date symlink: /home/smaran/ros2_sem4/install/my_launch/share/my_launch/local_setup.sh
+[2.319s] -- Up-to-date symlink: /home/smaran/ros2_sem4/install/my_launch/share/my_launch/local_setup.zsh
+[2.319s] -- Up-to-date symlink: /home/smaran/ros2_sem4/install/my_launch/share/my_launch/local_setup.dsv
+[2.319s] -- Symlinking: /home/smaran/ros2_sem4/install/my_launch/share/my_launch/package.dsv
+[2.339s] -- Up-to-date symlink: /home/smaran/ros2_sem4/install/my_launch/share/ament_index/resource_index/packages/my_launch
+[2.340s] -- Up-to-date symlink: /home/smaran/ros2_sem4/install/my_launch/share/my_launch/cmake/my_launchConfig.cmake
+[2.340s] -- Up-to-date symlink: /home/smaran/ros2_sem4/install/my_launch/share/my_launch/cmake/my_launchConfig-version.cmake
+[2.340s] -- Up-to-date symlink: /home/smaran/ros2_sem4/install/my_launch/share/my_launch/package.xml
+[2.345s] Invoked command in '/home/smaran/ros2_sem4/build/my_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/smaran/ros2_sem4/build/my_launch
